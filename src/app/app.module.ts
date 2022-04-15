@@ -40,9 +40,17 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { NgModule } from '@angular/core';
+import { HomeComponent } from './pages/home/home.component';
+import { SettingsComponent } from './pages/settings/settings.component';
+import { CategoriesComponent } from './pages/categories/categories.component';
+import { LeftSideMenuComponent } from './shared/components/left-side-menu/left-side-menu.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    SettingsComponent,
+    CategoriesComponent,
+    LeftSideMenuComponent
   ],
   imports: [
     BrowserModule,
